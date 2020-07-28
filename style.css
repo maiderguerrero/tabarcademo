@@ -145,19 +145,6 @@
 		margin-bottom: 15px;
 	}
 
-	/*Ajuste párrafos*/
-
-    .texto_curso p,
-    .content_type_clase_tabarcademo #actividad .slide_content_type_1 .pregunta .texto_curso, 
-    .content_type_clase_tabarcademo #actividad .texto_curso, .html-book {
-      margin-bottom: 20px;
-      color: #484EA2;
-      font-size: 3.6rem;
-      letter-spacing: 3px;
-      font-family: 'Conv_Comfortaa-VariableFont_wght';
-      font-weight: bold;
-      line-height: 1.43em;
-}
 
 
 	#actividad .class_slide {
