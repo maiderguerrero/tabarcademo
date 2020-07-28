@@ -2012,31 +2012,32 @@ a:hover, a:active, a:focus {
 /*Celda 1*/
 
 .content table:not(.rf-tablegrid) td.bck-td-1 {
-    border: 2px solid #C3E4E7;
-    padding: 10px;
-    background: #00A1A8;
-    color: #fff;
-    font-weight: 600;
-}
-
-/*Celda 2*/
-
-.content table:not(.rf-tablegrid) td.bck-td-2 {
-    border: 2px solid #C3E4E7;
+    border: 5px solid #D6BD76;
     padding: 10px;
     background: #fff;
     color: #333;
     font-weight: 600;
 }
 
+/*Celda 2*/
+
+.content table:not(.rf-tablegrid) td.bck-td-2 {
+    border: 5px solid #fff;
+    border-left: 4px solid #ECDAB4;
+    padding: 10px;
+    background: #ECDAB4;
+    color: #818385;
+    font-weight: 900;
+}
+
 /*Celda 3*/
 
 .content table:not(.rf-tablegrid) td.bck-td-3 {
-    border: 1px solid #fff;
+    border: 5px solid #fff;
     padding: 10px;
-    background: #00A1A8;
-    font-weight: bold;
-    color: #fff;
+    background: #E0E8D3;
+    font-weight: 400;
+    color: #333;
 }
 
 /*Celda 4*/
