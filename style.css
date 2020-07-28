@@ -2034,6 +2034,7 @@ a:hover, a:active, a:focus {
 
 .content table:not(.rf-tablegrid) td.bck-td-3 {
     border: 5px solid #fff;
+    border-right: 4px solid #E0E8D3;
     padding: 10px;
     background: #E0E8D3;
     font-weight: 400;
