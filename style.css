@@ -867,6 +867,14 @@ a:hover, a:active, a:focus {
 	color: #333;
 }
 
+.content .bck-ol li,
+.cke_contents .bck-ol li,
+.content ol li,
+.cke_contents ol li {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+}
+
 /*LISTA ORDENADA 1*/
 
 .content .bck-ol1 li,
@@ -896,15 +904,11 @@ a:hover, a:active, a:focus {
 	font-weight: normal;
     color: #333;
     padding-left: 45px;
-    font-size: 2.1rem;
-	padding-top: 5px;
-	margin-bottom: 20px;
 	
 }
 
 .content .bck-ol2 li:before,
 .cke_contents .bck-ol2 li:before {
-    top: 0px;
     content: counter(bck-li-counter, lower-alpha) ".";
     color: #58595B;
     position: absolute;
