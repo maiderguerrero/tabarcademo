@@ -788,6 +788,15 @@ a:hover, a:active, a:focus {
 
 */
 
+#actividad .content .cke_contents ol li,
+#actividad .content .texto_curso ol li,
+#actividad .content .workspace ul li ol li {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+}
+
+
+
 .content ol li,
 .cke_contents ol li {
 	list-style-type: none;
