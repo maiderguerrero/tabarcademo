@@ -441,7 +441,7 @@
 /*TOC*/
 
 #indice .units ul li {
-    background: #FFCF01;
+    background: #61abc6;
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     border-radius: 0px;
@@ -453,12 +453,12 @@
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
 #indice .units ul li:focus:not(.disabled) {
     background: transparent;
-    border: 2.5px dotted #009D77;
+    border-bottom: 2.5px solid #61ABC6;
 }
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-    color: #009D77;
+    color: #61abc6;
     font-size: 1.8rem;
 }
 
