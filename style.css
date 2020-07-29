@@ -832,7 +832,7 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ol3 li {
 	font-weight: normal;
     color: #333;
-    margin-left: -15px;
+    margin-left: 5px;
 	}
 
 .content .bck-ol3 li:before,
@@ -841,6 +841,7 @@ a:hover, a:active, a:focus {
     color: #58595B;
     position: absolute;
     left: 0px;
+    margin-left: 25px;
 }
 
 /*LISTA ORDENADA 4*/
