@@ -831,32 +831,16 @@ a:hover, a:active, a:focus {
 .content .bck-ol3 li,
 .cke_contents .bck-ol3 li {
 	font-weight: normal;
-	color: #333;
-	margin-left: -10px;
-	padding-left: 80px;
-	font-size: 2.3rem;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+    color: #333;
+    margin-left: -15px;
 	}
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
     content: counter(bck-li-counter) ".";
+    color: #58595B;
     position: absolute;
-    margin-top: 4px;
-    left: 40px;
-    display: inline-block;
-    width: 40px;
-    height: 0px;
-    border: 0px;
-    background: transparent;
-    color: #333;
-    font-size: 2.3rem;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: none;
-    transform: none;
-    margin-right: -10px;
-    font-family: 'Conv_OpenDyslexic-Bold',Sans-Serif;
+    left: 0px;
 }
 
 /*LISTA ORDENADA 4*/
