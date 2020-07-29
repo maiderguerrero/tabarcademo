@@ -812,6 +812,7 @@ a:hover, a:active, a:focus {
 	font-weight: normal;
     color: #333;
     padding-left: 45px;
+    margin-left: -15px;
 	
 }
 
@@ -820,12 +821,7 @@ a:hover, a:active, a:focus {
     content: counter(bck-li-counter, lower-alpha) ".";
     color: #58595B;
     position: absolute;
-    margin-top: 4px;
     left: 0px;
-    width: 33px;
-    text-align: center;
-    height: auto;
-    margin-right: -10px;
     font-weight: bold;
 
 }
