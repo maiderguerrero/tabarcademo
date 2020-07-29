@@ -318,13 +318,14 @@
 .navbar-bottom {
     padding-left: 100px;
     padding-right: 100px;
+    background-color: #6f6f6f;
 	}
 
 
 .logo-publisher {
 	    float: left;
     display: block;
-    width: 115px;
+    width: 90px;
     height: 40px;
     margin: 5px 0;
     background: url(images/logo_tabarca.png) center center / cover no-repeat;
