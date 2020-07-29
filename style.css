@@ -160,10 +160,10 @@
 .shortanswer-container textarea:focus, 
 .shortanswer-container input:focus, 
 .shortanswer-container .preview:focus {
-    -webkit-box-shadow: 0 0 2px #009c75;
-    -moz-box-shadow: 0 0 2px #009c75;
-    box-shadow: 0 0 2px #009c75;
-    border-color: #009c75;
+    -webkit-box-shadow: 0 0 2px #61ABC6;
+    -moz-box-shadow: 0 0 2px #61ABC6;
+    box-shadow: 0 0 2px #61ABC6;
+    border-color: #61ABC6;
 }
 
 
