@@ -405,7 +405,7 @@
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		  background: #009c75;
+		  background: #c1eaf9;
     	  color: transparent;
 	}
 	#bottom-navigator li.active {
@@ -542,7 +542,7 @@ a:hover, a:active, a:focus {
     text-align: center;
     overflow-wrap: break-word;
     vertical-align: top;
-    color: #009c75;
+    color: #61abc6;
 }
 
 .bck-file-attach img {
@@ -777,8 +777,7 @@ a:hover, a:active, a:focus {
 	background-color: #414141;
 }
 
-.content .bck-ol,
-.cke_contents .bck-ol,
+/*
 .content ol,
 .cke_contents ol {
 	list-style-type: none;
@@ -787,8 +786,8 @@ a:hover, a:active, a:focus {
 	color: #333;
 }
 
-.content .bck-ol li,
-.cke_contents .bck-ol li,
+*/
+
 .content ol li,
 .cke_contents ol li {
 	list-style-type: none;
@@ -2187,7 +2186,6 @@ a:hover, a:active, a:focus {
     -webkit-border-radius: 0px;
        -moz-border-radius: 0px;
     		border-radius: 0px;
-    text-align: center;
     padding: 0px;
 }
 
@@ -2197,10 +2195,10 @@ a:hover, a:active, a:focus {
 
 .content_type_clase_tabarcademo .slide_main input:focus,
 .content_type_clase_tabarcademo .slide_main .img-input-container:focus {
-    border-top-color: #009D77;
-    border-right-color: #009D77;
-    border-bottom-color: #009D77;
-    border-left-color: #009D77;
+    border-top-color: #61abc6;
+    border-right-color: #61abc6;
+    border-bottom-color: #61abc6;
+    border-left-color: #61abc6;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
