@@ -575,6 +575,7 @@ a:hover, a:active, a:focus {
 
 .bck-title1 {
 	font-weight: bold;
+	text-align: center;
     margin: 0;
     border: 5px solid #d6bd76;
     padding: 13px;
