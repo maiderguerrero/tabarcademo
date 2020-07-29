@@ -81,12 +81,12 @@
 		position: relative;
     	display: block;
     	width: fit-content;
-    	margin: auto;
     	font-size: 3.3rem;
-    	text-align: center;
     	font-weight: 100;
     	background: transparent;
-    	padding: 5px 15px 5px 15px;
+    	padding: 5px 15px 5px 90px;
+    	margin-bottom: 20px;
+    	margin-top: 10px;
 	}
 
 	.content_type_clase_tabarcademo #actividad .content .seccion_rosa .header .title h3 {
