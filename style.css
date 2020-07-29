@@ -798,7 +798,7 @@ a:hover, a:active, a:focus {
 
 .content .bck-ol1 li:before,
 .cke_contents .bck-ol1 li:before {
-	content: counter(bck-li-counter);
+	content: counter(bck-li-counter) ".";
     color: #58595B;
     position: absolute;
     left: 0px;
