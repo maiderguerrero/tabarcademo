@@ -870,84 +870,51 @@ a:hover, a:active, a:focus {
 /*LISTA ORDENADA 1*/
 
 .content .bck-ol1 li,
-.cke_contents .bck-ol1 li,
-.content ol li,
-.cke_contents ol li {
+.cke_contents .bck-ol1 li {
 	font-weight: normal;
-    color: #ea368e;
+    color: #333;
     padding-left: 45px;
-    font-size: 2.1rem;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
 }
 
 
 .content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before,
-.content ol li:before,
-.cke_contents ol li:before {
+.cke_contents .bck-ol1 li:before {
 	content: counter(bck-li-counter);
-    color: #FFCF01;
-    background: #EA368E;
-    padding: 0px 2px 2px 2px;
-    border-radius: 100%;
+    color: #58595B;
     position: absolute;
     margin-top: 4px;
     left: 0px;
     width: 33px;
-    text-align: center;
-    height: auto;
-    font-size: 2.1rem;
-    text-shadow: none;
-    transform: none;
     margin-right: -10px;
     font-weight: bold;
-    font-family: 'Conv_Plakkaat',Sans-Serif;
 }
 
 /*LISTA ORDENADA 2*/
 
 .content .bck-ol2 li,
-.cke_contents .bck-ol2 li,
-.content ol li,
-.cke_contents ol li {
-
+.cke_contents .bck-ol2 li {
 	font-weight: normal;
-    color: #00AC81;
+    color: #333;
     padding-left: 45px;
     font-size: 2.1rem;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
-	list-style-type: none;
 	padding-top: 5px;
 	margin-bottom: 20px;
-	counter-increment: bck-li-counter;
-	position: relative;
-	line-height: 1.1rem;
 	
 }
 
 .content .bck-ol2 li:before,
-.cke_contents .bck-ol2 li:before,
-.content ol li:before,
-.cke_contents ol li:before {
+.cke_contents .bck-ol2 li:before {
     top: 0px;
-
-    content: counter(bck-li-counter);
-    color: #FFCF01;
-    background: #00AC81;
-    padding: 0px 2px 2px 2px;
-    border-radius: 100%;
+    content: counter(bck-li-counter, lower-alpha) ".";
+    color: #58595B;
     position: absolute;
     margin-top: 4px;
     left: 0px;
     width: 33px;
     text-align: center;
     height: auto;
-    font-size: 2.1rem;
-    text-shadow: none;
-    transform: none;
     margin-right: -10px;
     font-weight: bold;
-    font-family: 'Conv_Plakkaat',Sans-Serif;
 
 }
 
