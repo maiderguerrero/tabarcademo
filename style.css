@@ -330,9 +330,8 @@
 
 /* Navbar */
 .navbar-bottom {
-		background: #484EA2 !important;
-    	padding-left: 100px;
-    	padding-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 	}
 
 
@@ -410,7 +409,7 @@
     	  color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #009c75;
+		background: #61ABC6;
    		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
@@ -530,85 +529,6 @@ a:hover, a:active, a:focus {
     text-overflow: ellipsis;
     display: none;
 }
-
-/*-------BOTONERA---------*/
-
-#actividad .content .review .attemps {
-    margin-left: 30px;
-    font-size: 15px;
-    display: inline-block;
-    color: #009d77;
-    font-family: 'Conv_Comfortaa-VariableFont_wght';
-}
-
-#actividad .content .review .attemps span {
-    width: 40px;
-    height: 40px;
-    font-weight: bold;
-    color: #009c75;
-    background-color: transparent;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
-    text-align: center;
-    padding: 9px 9px;
-    margin: 0 3px;
-    display: inline-block;
-    line-height: 24px;
-    font-family: 'Conv_Comfortaa-VariableFont_wght';
-    font-size: 3rem;
-    border: 2px dotted #009c75;
-}
-
-
-
-.btn-primary,
-.btn-primary[disabled] {
-	color: #009d77;
-    background-color: transparent;
-    border-color: transparent;
-    border: 2px dotted #009d77;
-    font-family: 'Conv_Comfortaa-VariableFont_wght';
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: -10px;
-}
-
-
-.btn-primary:not([disabled]):hover,
-.btn-primary:not([disabled]):active,
-.btn-primary[disabled]:hover,
-.btn-primary[disabled]:active {
-	color: #fff;
-    background-color: #009d77;
-    border-color: transparent;
-
-}
-
-.btn-danger,
-.btn-solution,
-.btn-save[disabled] {
-	color: #C8494D;
-    background-color: transparent;
-    border: 2px dotted #C8494D;
-    font-family: 'Conv_Comfortaa-VariableFont_wght';
-    font-size: 18px;
-    margin-right: 30px;
-    font-weight: bold;
-}
-
-.btn-danger:hover, 
-.btn-danger:focus, 
-.btn-danger:active,
-.btn-solution:hover,
-.btn-solution:active
- {
-	color: #fff;
-    background-color: #C8494D;
-    border-color: transparent;
-}
-
-
 
 /**/
 
@@ -2172,13 +2092,17 @@ a:hover, a:active, a:focus {
 	background: url(images/icono_audio.png) center center / cover;
 }
 
-#actividad .seccion_rosa .player.audio {
-	background: url(images/icono_audio_2.png) center center / cover;
+#actividad .player.audio, 
+#actividad .player.video, 
+#help-panel-content .player, 
+#remote-alert-modal-rich .player {
+    height: 40px !important;
+    width: 40px;
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
 }
 
-#actividad .seccion_verde .player.audio {
-	background: url(images/icono_audio_3.png) center center / cover;
-}
 
 .item-container .icon:before {
 	content: "";
