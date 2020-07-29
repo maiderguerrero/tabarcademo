@@ -777,37 +777,12 @@ a:hover, a:active, a:focus {
 	background-color: #414141;
 }
 
-/*
-.content ol,
-.cke_contents ol {
+#actividad .content .cke_contents .bck-ol li,
+#actividad .content .texto_curso .bck-ol li,
+#actividad .popover-content .bck-ol li,
+#actividad .content .workspace ul li .bck-ol li {
+	counter-increment: bck-li-counter;
 	list-style-type: none;
-	padding-left: 0;
-	counter-reset: bck-li-counter;
-	color: #333;
-}
-
-*/
-
-#actividad .content .cke_contents ol,
-#actividad .content .texto_curso ol,
-#actividad .content .workspace ul li ol {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
-}
-
-#actividad .content .cke_contents ol li,
-#actividad .content .texto_curso ol li,
-#actividad .content .workspace ul li ol li {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
-}
-
-
-
-.content ol li,
-.cke_contents ol li {
-	list-style-type: none;
-	counter-reset: bck-li-counter;
 }
 
 /*LISTA ORDENADA 1*/
