@@ -791,7 +791,6 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ol1 li {
 	font-weight: normal;
     color: #333;
-    padding-left: 45px;
     margin-left: -15px;
 }
 
@@ -811,7 +810,6 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ol2 li {
 	font-weight: normal;
     color: #333;
-    padding-left: 45px;
     margin-left: -15px;
 	
 }
