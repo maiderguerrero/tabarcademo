@@ -15,26 +15,16 @@
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
 				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title bck-title3'} },
-			
-				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-1'} },
 
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
 				{ name: 'Lista ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
 
-				{ name: 'Lista desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul1' } },
-				{ name: 'Lista desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul2' } },
-
-				{ name: 'Tabla 1', element: 'table', attributes: { 'class': 'table-1' } },
 			
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td-1' } },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2' } },
-			
-				{ name: 'Icono Escucha', element: 'span', attributes: { 'class': 'icon icon-escucha' } },
-				
-				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
-				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } }
+							
+				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } }
 			]
 		},
 
