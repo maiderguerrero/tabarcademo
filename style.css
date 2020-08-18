@@ -80,13 +80,14 @@
 	.content_type_clase_tabarcademo #actividad .content .header .title h3 {
 		position: relative;
     	display: block;
-    	width: fit-content;
-    	font-size: 3.3rem;
-    	font-weight: 100;
+    	font-size: 2rem;
+    	font-weight: 600;
     	background: transparent;
     	padding: 5px 15px 5px 90px;
     	margin-bottom: 20px;
     	margin-top: 10px;
+    	text-align: left;
+    	color: #8D878C;
 	}
 
 	.content_type_clase_tabarcademo #actividad .content .seccion_rosa .header .title h3 {
