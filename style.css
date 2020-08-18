@@ -1078,22 +1078,11 @@ a:hover, a:active, a:focus {
 /**/
 
 
-/* Slides */
+/*Slides*/
 
-#actividad .workspace.multiple-choice .opcion,
-#actividad .workspace.matching .opcion,
-#actividad .workspace.ordenar .js-rank-item {
-    border: 2px solid #ffcf01;
-    background: #fff;
-}
-
-#actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 0px solid #d8d8d8;
-}
-
-#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #ffcf01;
-    padding-top: 10px;
+#actividad .workspace.true-false li {
+	margin-bottom: 20px;
+    margin-left: 26px;
 }
 
 
